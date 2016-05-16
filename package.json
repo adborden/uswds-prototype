@@ -4,7 +4,7 @@
   "description": "A jekyll template for prototyping USWDS based websites.",
   "main": "index.js",
   "scripts": {
-    "build": "mkdir -p _site/assets && cp -R node_modules/uswds/src/{fonts,img,js} _site/assets/ && jekyll build",
+    "build": "mkdir -p _site/assets/vendor && cp -R node_modules/uswds/src/{fonts,img} _site/assets/ && cp node_modules/uswds/dist/js/uswds.min.js _site/assets/vendor/ && cp -R node_modules/jquery/dist/jquery.min.js _site/assets/vendor/ && jekyll build",
     "serve": "npm run build && jekyll serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

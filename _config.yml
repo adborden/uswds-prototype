@@ -24,7 +24,7 @@ markdown: kramdown
 keep_files:
   - assets/fonts
   - assets/img
-  - assets/js
+  - assets/vendor
 exclude:
   - node_modules
   - npm-debug.log
