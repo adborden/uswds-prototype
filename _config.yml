@@ -1,0 +1,32 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: A USWDS prototype
+description: > # this means to ignore newlines until "baseurl:"
+  Welcome to USWDS prototype, a simple toolkit for prototyping websites based
+  on the US Web Design Standards.
+baseurl: "" # the subpath of your site, e.g. /blog
+source_url: "https://github.com/adborden/uswds-prototype" # Where you can find the source to this prototype
+agency:
+  name: Name of Agency
+  email: info@agency.gov
+
+# Build settings
+#
+# You probably don't change these unless you know what you're doing :)
+uswds_prototype_url: "https://github.com/adborden/uswds-prototype"
+markdown: kramdown
+keep_files:
+  - assets/fonts
+  - assets/img
+  - assets/js
+exclude:
+  - node_modules
+  - npm-debug.log
+  - package.json
+  - README.md

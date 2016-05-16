@@ -1,0 +1,27 @@
+.usa-site-header .usa-site-navbar .logo {
+  float: left;
+  font-size: 2rem;
+  line-height: 1;
+  margin: 0;
+}
+
+#navbar {
+  margin: 2.7rem 0 1rem;
+}
+
+.subnav {
+  display: none;
+  float: right;
+
+  @include media($medium-screen) {
+    display: block;
+  }
+
+  .subnav_item {
+    float: right;
+  }
+
+  .subnav_link {
+    margin-left: 1em;
+  }
+}
