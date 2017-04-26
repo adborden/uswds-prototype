@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "A jekyll template for prototyping USWDS based websites.",
   "main": "index.js",
+  "public": false,
   "scripts": {
     "build": "mkdir -p _site/assets/vendor && cp -R node_modules/uswds/src/fonts node_modules/uswds/src/img _site/assets/ && cp node_modules/uswds/dist/js/uswds.min.js _site/assets/vendor/ && jekyll build",
     "serve": "npm run build && jekyll serve",
@@ -29,6 +30,6 @@
   },
   "homepage": "https://github.com/adborden/uswds-prototype#readme",
   "dependencies": {
-    "uswds": "~0.9.1"
+    "uswds": "^1.0.0"
   }
 }
