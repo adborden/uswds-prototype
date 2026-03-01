@@ -30,6 +30,6 @@
   },
   "homepage": "https://github.com/adborden/uswds-prototype#readme",
   "dependencies": {
-    "uswds": "^1.0.0"
+    "uswds": "^2.0.0"
   }
 }
